@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="tablestyle.css">
+    <style>
+        .Wktable {
+            width: 700px;
+            position: fixed;
+            left: 27%;
+            top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Rowspan & Colspan Table</h2>
+    <div class="Wktable" style="background-color:slategrey">
+    <table>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thusday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <th>Breakfast</th>
+            <td>In lair</td>
+            <td>With cronies</td>
+            <td>In lair</td>
+            <td>In lair</td>
+            <td>In lair</td>
+        </tr>
+        <tr>
+            <th>Morning</th>
+            <td colspan="2">Design traps</td>
+            <td colspan="3">Improve hideout</td>
+        </tr>
+        <tr>
+            <th>Afternoon</th>
+            <td>Train minions</td>
+            <td>Train minions</td>
+            <td>Train minions</td>
+            <td>Train minions</td>
+            <td rowspan="2" style="font-weight: bold;">World domination</td>
+        </tr>
+        <tr>
+            <th>Evening</th>
+            <td>Manaical laughter</td>
+            <td>Manaical laughter</td>
+            <td>Manaical laughter</td>
+            <td>Manaical laughter</td>
+        </tr>
+    </table>
+    </div>
+
+</body>
+</html>

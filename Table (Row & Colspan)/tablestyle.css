@@ -1,0 +1,21 @@
+table,tr,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: black; 
+    color: white;
+    height: 50px;
+}
+
+td:hover {
+    background-color:darkgray;
+    
+}
+
+th:hover {
+    background-color: violet;
+    color: black;
+}
