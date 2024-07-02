@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+.heading {
+    text-align: center;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: black 0px 1px 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+th {
+    background-color: rgba(0, 0, 0, 0.823);
+    font-weight: bold;
+    color: white;
+}
+
+tr:hover {
+    background-color: #e2dff2;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+.search-container input[type=text] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 670px;
+    margin-top: 15px;
+}
+
+.top {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;   
+}
+.title {
+    margin-left: 10px;
+    font-style: italic;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.pagination button.active {
+    background-color: black;
+    color: white;
+}

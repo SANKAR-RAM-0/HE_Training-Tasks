@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table</title>
+
+<link rel="stylesheet" href="Table-style.css">
+
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2 class="heading">Table Search & Pagination</h2>
+
+<table id="myTable">
+    <div class="top">
+        <h2 class="title">Customer Details</h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search...">
+            </div>
+    </div>
+            
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>johndoe@example.com</td>
+            <td>123-456-7890</td>
+            <td>123 Main St, Cityville</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>janesmith@example.com</td>
+            <td>987-654-3210</td>
+            <td>456 Elm St, Townsville</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Michael Johnson</td>
+            <td>michaeljohnson@example.com</td>
+            <td>555-123-4567</td>
+            <td>789 Oak Ave, Villagetown</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Susan Brown</td>
+            <td>susanbrown@example.com</td>
+            <td>222-333-4444</td>
+            <td>567 Pine Rd, Suburbia</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Robert Lee</td>
+            <td>robertlee@example.com</td>
+            <td>888-999-0000</td>
+            <td>890 Cedar St, Hilltop</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Linda Davis</td>
+            <td>lindadavis@example.com</td>
+            <td>111-222-3333</td>
+            <td>321 Maple Ave, Lakeside</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>William Wilson</td>
+            <td>williamwilson@example.com</td>
+            <td>777-888-9999</td>
+            <td>432 Birch Blvd, Riverside</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Alice Miller</td>
+            <td>alicemiller@example.com</td>
+            <td>444-555-6666</td>
+            <td>234 Pine St, Downtown</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Kevin Moore</td>
+            <td>kevinmoore@example.com</td>
+            <td>123-321-4567</td>
+            <td>876 Oak Dr, Countryside</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Emily Thompson</td>
+            <td>emilythompson@example.com</td>
+            <td>987-654-3210</td>
+            <td>543 Elm Ln, Hillside</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>David Clark</td>
+            <td>davidclark@example.com</td>
+            <td>222-333-4444</td>
+            <td>789 Cedar Rd, Suburbia</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Sarah Walker</td>
+            <td>sarahwalker@example.com</td>
+            <td>888-999-0000</td>
+            <td>321 Pine Ave, Uptown</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Jason Hall</td>
+            <td>jasonhall@example.com</td>
+            <td>111-222-3333</td>
+            <td>654 Oak St, Lakeside</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Michelle Green</td>
+            <td>michellegreen@example.com</td>
+            <td>777-888-9999</td>
+            <td>234 Birch Dr, Riverside</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Steven Hill</td>
+            <td>stevenhill@example.com</td>
+            <td>444-555-6666</td>
+            <td>876 Maple Blvd, Downtown</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Megan Turner</td>
+            <td>meganturner@example.com</td>
+            <td>123-321-4567</td>
+            <td>543 Oak Ln, Countryside</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Christopher Young</td>
+            <td>christopheryoung@example.com</td>
+            <td>987-654-3210</td>
+            <td>789 Elm Rd, Hillside</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Amy Scott</td>
+            <td>amyscott@example.com</td>
+            <td>222-333-4444</td>
+            <td>321 Pine Ave, Suburbia</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Richard King</td>
+            <td>richardking@example.com</td>
+            <td>888-999-0000</td>
+            <td>654 Cedar St, Uptown</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Kimberly Baker</td>
+            <td>kimberlybaker@example.com</td>
+            <td>111-222-3333</td>
+            <td>234 Oak Dr, Lakeside</td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="pagination" id="pagination">
+    <button onclick="previousPage()">Previous</button>
+    <button onclick="showPage(1)">1</button>
+    <button onclick="showPage(2)">2</button>
+    <button onclick="showPage(3)">3</button>
+    <button onclick="showPage(4)">4</button>
+    <button onclick="nextPage()">Next</button>
+</div>
+
+<script src="Table-script.js"></script>
+</body>
+</html>
